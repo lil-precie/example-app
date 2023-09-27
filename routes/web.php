@@ -14,9 +14,24 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+Route::get('/booking', function () {
+    return view('booking');
+});
+Route::get('/service', function () {
+    return view('service');
+});
+Route::get('/gallery', function () {
+    return view('gallery');
+});
 
 
 Auth::routes();
