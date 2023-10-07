@@ -13,8 +13,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
                 </div>
             </div>
         </div>
@@ -31,7 +29,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="#"><span class="sr-only">(current)</span>Home</a>
             </li>
             <li class="nav-item">
@@ -40,7 +38,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item ">
                 <a class="nav-link" href="#">About Us </a>
             </li>
             <li class="nav-item">
@@ -53,8 +51,9 @@
     </div>
 </nav>
 
+
 <div class="container">
-    <!-- an image should overlap the text -->
+    <!-- an image should overlap the text(transperent) -->
     <h2>YOU CANT BE PERFECT<BR>BUT YOUR NAILS CAN</h2>
     <a href="booking" class="btn btn-secondary">BOOK YOUR APPOINTMENT</a>
 
@@ -246,11 +245,12 @@
     <h5>SUBSCRIBE TO GET DISCOUNT!</h5>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis in quia repudiandae, vero cumque numquam a, ratione molestiae similique voluptas qui aliquam deleniti reiciendis.</p>
 
-    <div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="your Email" aria-label="your email" aria-describedby="button-addon2">
-  <button class="btn btn-outline-secondary" type="button" id="button">subscribe</button>
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="your Email" aria-label="your email" aria-describedby="button-addon2">
+    <button class="btn btn-outline-secondary" type="button" id="button">subscribe</button>
 </div>
 </div>
 </footer>
 
 
+@endsection
