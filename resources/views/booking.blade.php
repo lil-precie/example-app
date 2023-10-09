@@ -43,15 +43,7 @@ body {
             border-radius: 10px;
             border: 1px solid #ddd;
         }
-/* 
-        body {
-            padding-top: 0px;
-            background-image: url('pink 3.jpg'); /* Replace 'your-background-image.jpg' with your image file path */
-            background-size: cover;
-            background-position: center center;
-            background-attachment: fixed; /* Ensures the background image remains fixed as the user scrolls */
-            color: white; /* Set the text color to contrast with the background */
-        } */
+
     </style>
 </head>
 <body>

@@ -80,44 +80,43 @@ body {
 </nav>
 
 
+
 <div class="transparent-image">
-    <h2>YOU CANT BE PERFECT<BR>BUT YOUR NAILS CAN</h2>
-    <a href="booking" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">BOOK APPOINTMENT</a>
+<div class="container">
+    <h2 class=text-center>YOU CANT BE PERFECT<BR>BUT YOUR NAILS CAN</h2>
+    <div class="text-center">
+    <a href="booking" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">BOOK NOW</a>
+    </div>
+</div>
 </div>
 
 
 <div class="row p-5">
     <div class="col-sm-4 w-50 h-50">
         <div class="card">
-            <!-- <div class="card custom-card"> -->
                 <div class="card-body">
                     <h5 class="card-title">BEST NAILS IN TOWN</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit assumenda placeat numquam facere cumque ea quae repudiandae, nostrum, exercitationem consequatur perferendis ex blanditiis nobis sed saepe dolorem obcaecati illo in.</p>
                 </div>
-            <!-- </div> -->
         </div>
     </div>
 
 <div class="col-sm-4 w-50 h-50">
     <div class="card">
-        <!-- <div class="card custom-card"> -->
             <div class="card-body">
                 <h5 class="card-title">STERIL EQUIPMENT</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro incidunt veniam culpa sunt tenetur blanditiis voluptates ex sapiente, fuga quo doloribus modi deleniti similique esse doloremque enim ab molestias quaerat!</p>
             </div>
-        <!-- </div> -->
     </div>
 </div>
 
     <div class="col-sm-4 w-50 h-50">
         <div class="card">
-            <!-- <div class="card custom-card"> -->
                 <div class="card-body">
                     <h5 class="card-title">JOIN MEMBER NOW <br>GET 25% OFF</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">join now</a>
                 </div>
-            <!-- </div> -->
         </div>
     </div>
 
@@ -162,11 +161,12 @@ body {
 </div>
 
 
+<div class="transparent-image">
+<div class="container p-5">
+    <h4 class=text-center>WHAT WE DO</h4>
+    <P class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur fuga voluptatem ipsa ipsam laboriosam delectus. Porro autem eligendi doloribus, facere quam fuga totam dolor. Earum tempore fuga placeat conse sit, eos iure, fugiat nobis debiti</p>
 
-
-<div class="container">
-    <h4 class="text-center p-5">WHAT WE DO</h4>
-    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium aperiam in reprehenderit consectetur eius doloribus ipsam neque fuga error sapiente, culpa ad. Nihil quam officiis temporibus. Quisquam sequi sit veritatis.</p>
+</div>
 </div>
 
 
@@ -201,18 +201,22 @@ body {
         </div>
     </div>
 </div>
-<div>
-    <h3 class="text-center">OUR SERVICES</h3>
-    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam autem accusantium itaque necessitatibus nulla est labore ratione officia, sunt sit, eos iure, fugiat nobis debitis at rehenderit accusamus ducimus provident.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam autem accusantium itaque necessitatibus nulla est labore ratione officia, sunt sit, eos iure, fugiat nobis debitis at reprehenderit accusamus ducimus provident.</p>
-    <div class="container mt-4 text-center p-5">
-        <a href="service" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">learn more</a>
+
+
+<div class="transparent-image p-5">
+<div class="container">
+    <h4 class=text-center>OUR SERVICES</h4>
+    <P class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur fuga voluptatem ipsa ipsam laboriosam delectus. Porro autem eligendi doloribus, facere quam fuga totam dolor. Earum tempore fuga placeat consequuntur!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam autem accusantium itaque necessitatibus nulla est labore ratione officia, sunt sit, eos iure, fugiat nobis debitis at reprehenderit accusamus ducimus provident.</p></P>
+
+    <div class="text-center">
+    <a href="gallery" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">learn more</a>
     </div>
+</div>
 </div>
 
 
 
-
-<div class="container">
+<div class="container p-5">
     <div class="row">
         <div class="col-md-3">
             <div class="text-center">
@@ -250,16 +254,16 @@ body {
 
 
 
-
 <div class="transparent-image">
-    <h4>GET 25% OFF YOUR FIRST APPOINTMENT</h4>
+<div class="container">
+    <h4 class=text-center>GET 25% OFF YOUR FIRST APPOINTMENT</h4>
     <P class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur fuga voluptatem ipsa ipsam laboriosam delectus. Porro autem eligendi doloribus, facere quam fuga totam dolor. Earum tempore fuga placeat consequuntur!</P>
 
-    <div class="container mt-4 p-5">
-        <a href="booking" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">BOOK NOW</a>
+    <div class="text-center">
+    <a href="booking" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">BOOK NOW</a>
     </div>
 </div>
-
+</div>
 
 
 <!-- <div class="container p-5">
@@ -282,10 +286,19 @@ body {
     </div>
 </div>
 
+
 <div class="transparent-image">
-    <h4 class="mb-4">TRENDING NAIL ART</h4>
-    <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vitae ullam unde ipsum officia fugiat labore autem vero saepe vel dicta, architecto, tempore enim. Aspernatur quasi nobis repellat impedit porro!</p>
+<div class="container">
+    <h4 class=text-center>TRENDING NAIL ART</h4>
+    <P class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur fuga voluptatem ipsa ipsam laboriosam delectus. Porro autem eligendi doloribus, facere quam fuga totam dolor. Earum tempore fuga placeat consequuntur!</P>
+
+    <div class="text-center">
+    <a href="gallery" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">VIEW</a>
+    </div>
 </div>
+</div>
+
+
 <!-- </div>
     <img src="nail 3.jpg" class="rounded float-start" alt="1">
     <img src="nail 4.jpg" class="rounded float-center" alt="2">
