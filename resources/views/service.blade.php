@@ -9,12 +9,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <style>
+body {
+            padding-top: 0px; /* Adjust according to your navbar height */
+        }
 
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
 .transparent-image {
-            background-image: url('decor 1.jpg'); /* Replace 'your-image.jpg' with your image file path */
+            background-image: url('pink 3.jpg'); /* Replace 'your-image.jpg' with your image file path */
             background-size: cover;
             background-position: center center;
-            height: 400px; /* Set a height for the background, adjust as needed */
+            height: 250px; /* Set a height for the background, adjust as needed */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -47,22 +55,22 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="home">Home</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Services<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="service">Services<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us </a>
+                <a class="nav-link" href="aboutus">About Us </a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="#">gallery </a>
+                <a class="nav-link" href="gallery">gallery </a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">booking</a>
+                <a class="nav-link" href="booking">booking</a>
             </li>
         </ul>
     </div>
@@ -72,7 +80,7 @@
     <h3 class="text-center"> CREATING BEAUTY IN <br>PINK PALOMA</h3>
     <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime cupiditate asperiores non corporis sit ratione corrupti quas. Ex praesentium officia fugiat, aspernatur corrupti quasi exercitationem eveniet. Ipsa officiis voluptatem harum?</p>
     <div class="text-center">
-    <a href="booking" class="" style="background-color:#DDA9B5">BOOK APPOINTMENT</a>
+    <a href="booking" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">BOOK NOW</a>
     </div>
 </div>
 </div>
@@ -85,37 +93,33 @@
     <div class="row">
         <div class="col-md-3">
             <div class="text-center">
-                <img src="nail art.png" class="rounded-circle w-25" alt="...">
+                <img src="nail art.png" class=" w-25" alt="...">
                 <h6>Nail Art</h6>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <span class="btn rounded-pill bg-warning">Read more</span>
             </div>
         </div>
 
         <div class="col-md-3">
             <div class="text-center">
-                <img src="manicure.png" class="rounded-circle w-25" alt="...">
+                <img src="manicure.png" class=" w-25" alt="...">
                 <h6>Mainicure</h6>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                <span class="btn rounded-pill bg-warning">Read more</span>
             </div>
         </div>
 
         <div class="col-md-3">
             <div class="text-center">
-                <img src="pedicure.png" class="rounded-circle w-25" alt="...">
+                <img src="pedicure.png" class=" w-25" alt="...">
                 <h6>Pedicure</h6>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                <span class="btn rounded-pill bg-warning">Read more</span>
             </div>
         </div>
 
         <div class="col-md-3">
             <div class="text-center">
-                <img src="wax.png" class="rounded-circle w-25" alt="...">
-                <h6>Parrafin Wax</h6>
+                <img src="hair image.png" class=" w-25" alt="...">
+                <h6>braiding</h6>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                <span class="btn rounded-pill bg-warning">Read more</span>
             </div>
         </div>
     </div>
@@ -128,7 +132,7 @@
     <h5 class="text-center p-5">About Us</h5>
     <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique iure placeat dicta possimus.<br> Quisquam dignissimos a, iste beatae nisi labore natus soluta culpa debitis eaque hic suscipit optio iusto mollitia?</p>
     <div class="text-center">
-        <a href="aboutus" class="btn btn-warning ">Read More</a>
+        <a href="aboutus" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">Read More</a>
     </div>
 <!-- picture by the side -->
 </div>
@@ -251,36 +255,33 @@
     <div class="row">
         <div class="col-md-4">
             <div class="text-center">
-                <img src="one.png" class="rounded-circle h-25 w-25" alt="...">
+                <img src="one.png" class=" h-25 w-25" alt="...">
                 <h6>Acrylic Nails</h6>
-                <span class="btn rounded-pill bg-warning">Read more</span>
             </div>
         </div>
 
         <div class="col-md-4">
             <div class="text-center">
-                <img src="gel.png" class="rounded-circle h-25 w-25" alt="...">
+                <img src="gel.png" class="h-25 w-25" alt="...">
                 <h6>Gel Polish</h6>
-                <span class="btn rounded-pill bg-warning">Read more</span>
             </div>
         </div>
 
         <div class="col-md-4">
             <div class="text-center">
-                <img src="poly.png" class="rounded-circle h-25 w-25" alt="...">
+                <img src="poly.png" class=" h-25 w-25" alt="...">
                 <h6>Poly Gel</h6>
-                <span class="btn rounded-pill bg-warning">Read more</span>
             </div>
         </div>
     </div>
 </div>
 
-<footer class="container fluid p-5 mt-5 bg-dark text-white">
+<footer class="container fluid p-5 mt-5">
     <div class="row">
         <div class="col-md-4">
             <h6>SALON LOCATION</h6>
             <p>225 address name, Miami, FL</p>
-            <a href="booking" class="btn btn-danger btn-sm">BOOK ONLINE</a>
+            <a href="booking" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">BOOK ONLINE</a>
         </div>
 
         <div class="col-md-4">
@@ -299,7 +300,7 @@
                 <label for="firstName" class="form-label">First Name</label>
                 <input type="text" class="form-control f" id="firstName" placeholder="Enter your name">
             </div>
-            <button type="button" class="btn btn-dark btn-sm">Subscribe</button>
+            <a href="#" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">SUBSCRIBE</a>
 </div>
 
 

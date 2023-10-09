@@ -32,6 +32,10 @@ Route::get('/service', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+Route::get('/home', function () {
+    return view('home');
+});
+
 
 
 Auth::routes();

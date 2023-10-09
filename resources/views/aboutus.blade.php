@@ -6,13 +6,51 @@
     <title>About Us</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+
+body {
+            padding-top: 0px; /* Adjust according to your navbar height */
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+.transparent-image {
+            background-image: url('pink 3.jpg'); /* Replace 'your-image.jpg' with your image file path */
+            background-size: cover;
+            background-position: center center;
+            height: 200px; /* Set a height for the background, adjust as needed */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white; /* Set the text color to contrast with the background */
+        }
+        .reservation-box {
+            border: 1px solid #ccc; /* Border color */
+            border-radius: 10px; /* Border radius */
+            padding: 20px;
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+        }
+
+        .transparent-form {
+            background-color: rgba(255, 255, 255, 0.7); /* Slightly transparent white background for the form */
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+        
     
+    </style>
 </head>
 <body>
 
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">pink paloma</a>
+    <img src="" class="h-10 " alt="image 1">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,39 +58,43 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="service">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact">Contact</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="aboutus">About Us <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">gallery</a>
+                <a class="nav-link" href="gallery">gallery</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">booking</a>
+                <a class="nav-link" href="booking">booking</a>
             </li>
         </ul>
     </div>
+
 </nav>
 
-<h3 class="text-center p-5">About Us</h3>
- 
 
-<div class="container">
+<div class="transparent-image">
+    <h1>ABOUT US</h1>
+</div>
+
+
+<div class="container p-5">
     <div class="row">
         <div class="col-md-6 mb-3">
-            <img src="team 3.jpg" class="card-img-top w-100 h-100" alt="image 1">
+            <img src="style 3.jpg" class="card-img-top w- h-" alt="image 1">
         </div>
         <div class="col-md-6">
             <h1 class="font-italic">meet the team</h1>
             <h4 class="pr-5">TALENTED &<br>HIGHLY SKILLED<br>STYLISTS</h4>
-            <p>At Pink Paloma, we specialize in all things beauty from <br> lashes, brows, nails, hair. All of these<br> beautiful things will happen. Exercising the imagination,<br> being creative. The secret to doing anything is believing <br>that you can do it. Anything that you believe you can do<br> strong enough, you can do.</p>
+            <p>At Pink Paloma, we specialize in all things<br> beauty from  lashes, brows, nails, hair. All of <br>these beautiful things will happen. Exercising the imagination, <br>being creative. The secret to doing anything is<br> believing that you can do it. Anything that <br>you believe you can do strong enough, you<br> can  Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Maiores exercitationem totam, aut magnam harum, saepe<br> voluptatem excepturi in voluptatum alias perspiciatis non illum<br> error id molestiae commodi rerum? Porro, impedit. Lorem <br>ipsum dolor sit amet consectetur adipisicing elit. Maiores<br> exercitationem totam, aut magnam harum, saepe voluptatem excepturi <br>in voluptatum alias perspiciatis non illum error id <br>molestiae commodi rerum? Porro, impedit.</p>
         </div>
     </div>
 </div>
@@ -72,92 +114,127 @@
 
 
 <div class="card-group">
-        <div class="card">
-            <img src="hair 10.jpg" class="card-img-top" alt="image 1">
+        <div class="card h-50">
+            <img src="style 10.jpg" class="card-img-top" alt="image 1">
         </div>
 
-        <div class="card">
-            <img src="hair 6.jpg" class="card-img-top" alt="image 2">
+        <div class="card h-50">
+            <img src="style 9.jpg" class="card-img-top" alt="image 2">
         </div>
 
-        <div class="card">
-            <img src="hair 8.jpg" class="card-img-top" alt="image 3">
+        <div class="card h-50">
+            <img src="style 8.jpg" class="card-img-top" alt="image 3">
+        </div>
+
+        <div class="card h-50">
+            <img src="style 13.jpg" class="card-img-top h-100" alt="image 3">
+        </div>
+
+        <div class="card h-50">
+            <img src="style 12.jpg" class="card-img-top" alt="image 3">
         </div>
 </div>
 
     <h5 class="text-center font-italic p-3">come visit us</h5>
 
-
 <div class="text-center p-5">
-    <a href="booking" class="btn btn-warning btn-sm">BOOK YOUR APPOINTMENT</a>
+    <a href="booking" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">BOOK NOW</a>
+
 </div>
+<div class="transparent-image">
+        <h1>MEET OUR TALENTED STYLISTS</h1>
+        
+</div> 
 
 
-
-
-<div class="row row-cols-1 row-cols-md-2 g-4">
-<div class="col">
-    <div class="card">
-    <img src="h5.jpg" class="card-img-top float-start  h-50 p-5" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">ANNABELLE</h5>
-        <p class="card-text">write a team members bio right here, to help build connection with potential ckients visiting this page.All of the beautiful things will happen .Exercising the imagination, being creative.</p>
-    </div>
-    </div>
-</div>
-
-<div class="col">
-    <div class="card">
-        <img src="hair 5.jpg" class="card-img-top float-start h-50 p-5  " alt="...">
-    <div class="card-body">
-        <h5 class="card-title">SAMARA</h5>
-        <p class="card-text">write a team members bio right here, to help build connection with potential ckients visiting this page.All of the beautiful things will happen .Exercising the imagination, being creative.</p>
-    </div>
-    </div>
-</div>
-
-<div class="col">
-    <div class="card">
-    <img src="h3.jpg" class="card-img-top float-start  h-50 p-5" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">ZOEY</h5>
-        <p class="card-text">write a team members bio right here, to help build connection with potential ckients visiting this page.All of the beautiful things will happen .Exercising the imagination, being creative.</p>
-    </div>
-    </div>
-</div>
-
-<div class="col">
-    <div class="card">
-    <img src="h4.jpg" class="card-img-top float-start  h-50"  alt="...">
-    <div class="card-body">
-        <h5 class="card-title">CHRISTINE</h5>
-        <p class="card-text">write a team members bio right here, to help build connection with potential ckients visiting this page.All of the beautiful things will happen .Exercising the imagination, being creative.</p>
-    </div>
-    </div>
-</div>
-</div>
-
-
-<div class="row">
-    <div class="col-md-6">
-        <h5>FOLLOW<br>ALONG</h5>
-        <h6>@pinkpaloma</h6>
-    </div>
-            <div class="col-md-6">
-                <img src="twitter.png" class="img-float-start h-25 p-5" alt="image 1">
-                <img src="instagram.png" class="img- float-center h-25 p-5" alt="image 2">
-                <img src="facebook.png" class="img- float-end h-25 p-5" alt="image 3">
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4 p-5">
+        <!-- First Card -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="stylist 6.jpg" class="card-img h-100" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">ANNABELLE</h5>
+                            <p class="card-text">Write a team member's bio right here to help build a connection with potential clients visiting this page. All of the beautiful things will happen. Exercising the imagination, being creative.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
 
+        <!-- Second Card -->
+        <div class="col">
+            <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="stylist 2.jpg" class="card-img h-100" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">SAMARA</h5>
+                            <p class="card-text">Write a team member's bio right here to help build a connection with potential clients visiting this page. All of the beautiful things will happen. Exercising the imagination, being creative.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4 p-5">
+        <!-- Third Card -->
+        <div class="col">
+            <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="stylist 3.jpg" class="card-img h-100" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">ZOEY</h5>
+                            <p class="card-text">Write a team member's bio right here to help build a connection with potential clients visiting this page. All of the beautiful things will happen. Exercising the imagination, being creative.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fourth Card -->
+        <div class="col">
+            <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="stylist 4.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">CHRISTINE</h5>
+                            <p class="card-text">Write a team member's bio right here to help build a connection with potential clients visiting this page. All of the beautiful things will happen. Exercising the imagination, being creative.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
-<footer class="container pt-5 bg-dark text-white">
+
+<h1 class=text-center>CERTIFICATE</h1>
+<div class="d-flex justify-content-center align-items-center">
+    <img src="certificate.jpg" class="card-img-top w-50 h-25 p-5" alt="1">
+</div>
+
+
+<footer class="container pt-5">
     <div class="row">
         <div class="col-md-4">
             <h6>SALON LOCATION</h6>
             <p>225 address name, Miami, FL</p>
-            <a href="booking" class="btn btn-danger btn-sm">BOOK ONLINE</a>
+            <a href="booking" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">BOOK ONLINE</a>
         </div>
 
         <div class="col-md-4">
@@ -176,7 +253,7 @@
                 <label for="firstName" class="form-label">First Name</label>
                 <input type="text" class="form-control f" id="firstName" placeholder="Enter your name">
             </div>
-            <button type="button" class="btn btn-dark btn-sm">Subscribe</button>
+            <a href="#" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">SUBSCRIBE</a>
 </div>
 
 

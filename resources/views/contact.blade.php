@@ -7,12 +7,21 @@
     <!-- Link to Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
+        body {
+            padding-top: 0px; /* Adjust according to your navbar height */
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
 
 .transparent-image {
-            background-image: url('decor 1.jpg'); /* Replace 'your-image.jpg' with your image file path */
+            background-image: url('pink 3.jpg'); /* Replace 'your-image.jpg' with your image file path */
             background-size: cover;
             background-position: center center;
-            height: 400px; /* Set a height for the background, adjust as needed */
+            height: 200px; /* Set a height for the background, adjust as needed */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -44,22 +53,22 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="service">Services</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="contact">Contact<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us </a>
+                <a class="nav-link" href="aboutus">About Us </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">gallery </a>
+                <a class="nav-link" href="gallery">gallery </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">booking</a>
+                <a class="nav-link" href="booking">booking</a>
             </li>
         </ul>
     </div>
@@ -129,7 +138,7 @@
                     <textarea class="form-control" placeholder="Special Request here" id="floatingTextarea2" style="height: 100px"></textarea>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-secondary btn-sm">Book Now</button>
+                    <a href="booking" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">book now</a>
                 </div>
             </form>
         </div>
@@ -145,7 +154,7 @@
         <div class="col-md-4">
             <h6>SALON LOCATION</h6>
             <p>225 address name, Miami, FL</p>
-            <a href="booking" class="btn btn-danger btn-sm">BOOK ONLINE</a>
+            <a href="booking" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">BOOK ONLINE</a>
         </div>
 
         <div class="col-md-4">
@@ -164,7 +173,7 @@
             <label for="firstName" class="form-label">First Name</label>
             <input type="text" class="form-control" id="firstName" placeholder="Enter your name">
         </div>
-        <button type="button" class="btn btn-dark btn-sm">Subscribe</button>
+        <a href="#" class="btn btn-secondary btn-sm" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">SUBSCRIBE</a>
 </div>
 
 

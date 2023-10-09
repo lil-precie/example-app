@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <!-- Link to Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
+body {
+            padding-top: 0px; /* Adjust according to your navbar height */
+            color: black; /* Set the text color to black */
+        }
 
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
 .transparent-image {
-            background-image: url('decor 1.jpg'); /* Replace 'your-image.jpg' with your image file path */
+            background-image: url('pink 3.jpg'); /* Replace 'your-image.jpg' with your image file path */
             background-size: cover;
             background-position: center center;
-            height: 400px; /* Set a height for the background, adjust as needed */
+            height: 200px; /* Set a height for the background, adjust as needed */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -30,11 +38,20 @@
         }
 
         .transparent-form {
-            background-color: rgba(255, 255, 255, 0.7); /* Slightly transparent white background for the form */
+            background-color: rgba(255, 255, 255, 0); /* Slightly transparent white background for the form */
             padding: 20px;
             border-radius: 10px;
             border: 1px solid #ddd;
         }
+/* 
+        body {
+            padding-top: 0px;
+            background-image: url('pink 3.jpg'); /* Replace 'your-background-image.jpg' with your image file path */
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed; /* Ensures the background image remains fixed as the user scrolls */
+            color: white; /* Set the text color to contrast with the background */
+        } */
     </style>
 </head>
 <body>
@@ -48,40 +65,40 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="service">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us </a>
+                <a class="nav-link" href="aboutus">About Us </a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="#">gallery </a>
+                <a class="nav-link" href="gallery">gallery </a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">booking<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="booking">booking<span class="sr-only">(current)</span></a>
             </li>
         </ul>
     </div>
 </nav>
 
 <div class="transparent-image">
-    <h1>RESERVATION</h1>
+    <h1>BOOKING</h1>
 </div>
+
 
 <div class="container">
     <div class="reservation-box">
-<!-- <h3 class="text-center">Reservation</h3> -->
 <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dicta nulla quis optio<br> iusto doloremque corporis! b Corporis et quo laborum, eveniet sint repudiandae voluptatibus rem! Ducimus deleniti nemo recusandae a.</p>
 
 <div class="container-fluid p-5">
     <div class="row">
         <div class="col-md-4 offset-md-4 transparent-form">
-            <form>
+            <form action="process_form.php" method="post">
                 <div class="mb-3">
                     <label for="name" class="form-label">Your Name</label>
                     <input type="text" class="form-control" id="name">
@@ -108,7 +125,7 @@
                     <label for="date" class="form-label">Select Date</label>
                     <input type="date" class="form-control" id="date">
                 </div>
-                <button type="submit" class="btn btn-primary btn-sm">Book Now</button>
+                <a href="booking" class="btn btn-secondary btn-sm" button type="submit" style="background-image: url('pink 3.jpg'); background-size: cover; background-position: center;">BOOK NOW</a>
             </form>
         </div>
     </div>

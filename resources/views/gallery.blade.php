@@ -7,6 +7,17 @@
     <!-- Link to Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            padding-top: 0px; /* Adjust according to your navbar height */
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+    </style>
 </head>
 <body>
 
@@ -19,22 +30,22 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="service">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
+                <a class="nav-link" href="contact">contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us </a>
+                <a class="nav-link" href="aboutus">About Us </a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">gallery<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="gallery">gallery<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">booking</a>
+                <a class="nav-link" href="booking">booking</a>
             </li>
         </ul>
     </div>
@@ -48,7 +59,7 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
             <div class="card">
-                <img src="nail 12.jpg" class="card-img-top" alt="12">
+                <img src="nail 12.jpg" class="card-img-top " alt="12">
             </div>
         </div>
 
@@ -60,7 +71,7 @@
 
         <div class="col">
             <div class="card">
-                <img src="nail 2" class="card-img-top" alt="2">
+                <img src="nail 2" class="card-img-top  " alt="2">
             </div>
         </div>
 
@@ -187,6 +198,24 @@
         <div class="col">
             <div class="card">
                 <img src="hair 12.jpg" class="card-img-top" alt="12">
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="nail 65.jpg" class="card-img-top" alt="12">
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="nail 70.jpg" class="card-img-top" alt="12">
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="nail 71.jpg" class="card-img-top" alt="12">
             </div>
         </div>
 
